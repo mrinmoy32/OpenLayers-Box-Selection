@@ -135,7 +135,9 @@ selectedFeatures.on(['add', 'remove'], function () {
         return feature.get('ECO_NAME');
     });
     if (names.length > 0) {
-        infoBox.innerHTML = names.join(', ');
+        // Create a list of names
+        const listItems = names.map((name) => `<li>${name}</li>`).join('');
+        infoBox.innerHTML = `<ul>${listItems}</ul>`;
     } else {
         infoBox.innerHTML = 'None';
     }
