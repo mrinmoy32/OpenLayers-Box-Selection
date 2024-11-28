@@ -31,9 +31,17 @@ If you need to install dependencies, use npm:
 npm install
 ```
 
-### 3. Open the project
+### 3. Start the project
 
-After installation, you can open the `index.html` file in your browser to see the box selection tool in action.
+After installation, you need to run the start script:
+
+```bash
+npm start
+```
+
+### 4. Open the project
+
+One the project successfully runs, visit `http://localhost:5173/`
 
 ## Usage
 
